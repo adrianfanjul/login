@@ -115,5 +115,11 @@
        app:layout_constraintStart_toEndOf="@+id/login_account_text"
        app:layout_constraintTop_toTopOf="@+id/login_account_text" />
 
+   <com.google.android.material.textview.MaterialTextView
+       android:id="@+id/login_snackbar"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintBottom_toBottomOf="parent"
+       style="@style/login_snackbar"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
